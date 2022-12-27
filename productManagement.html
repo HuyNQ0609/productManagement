@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Management</title>
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <input type="text" id="name">
+    <input type="text" id="price">
+    <input type="text" id="number">
+    <input type="text" id="img">
+    <button onclick="createNewProduct()">Create</button>
+    <br>
+    <span id="numberOfProduct"></span>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Number</td>
+                <td>Img</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody id="listProduct">
+
+        </tbody>
+    </table>
+<script src="initManage.js"></script>
+<script src="runManage.js"></script>
+</body>
+</html>
